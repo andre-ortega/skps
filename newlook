@@ -55,4 +55,7 @@ else
   wal -i $wall
 fi
 
-xdotool key super+F5
+# For legacy dwm
+#xdotool key super+F5
+/home/roe/.config/polybar/bar.sh
+
