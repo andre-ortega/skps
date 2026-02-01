@@ -54,3 +54,5 @@ fi
 
 MONITOR=eDP-1 polybar center --config=$HOME/.config/polybar/config.ini &
 MONITOR=HDMI-1 polybar secondary-center --config=$HOME/.config/polybar/config.ini &
+cp /home/roe/.cache/wal/colors-wal-dmenu.h /home/roe/git/suckless-drega/dmenu
+
