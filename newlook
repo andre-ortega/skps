@@ -6,8 +6,8 @@ set -eou pipefail
 
 # SAVE OPTION
 
-WALL_DIR=/home/roe/pix/sara
-#WALL_DIR=/home/roe/pix/walls
+#WALL_DIR=/home/roe/pix/sara
+WALL_DIR=/home/roe/pix/walls
 THEMES_DIR=/home/roe/skps/custom_walz
 
 #wall=orbits
