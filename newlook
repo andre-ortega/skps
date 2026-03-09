@@ -5,10 +5,11 @@ RESET='\033[0m'
 set -eou pipefail
 
 # SAVE OPTION
-#wall=electronix
+wall=cyberpunk
 
 #WALL_DIR=/home/roe/pix/sara
-WALL_DIR=/home/roe/pix/walls
+#WALL_DIR=/home/roe/pix/walls
+WALL_DIR=/home/roe/pix/alex_steven_martin
 THEMES_DIR=/home/roe/skps/custom_walz
 
 #wall=orbits
