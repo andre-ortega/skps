@@ -11,6 +11,7 @@ wall=cyberpunk
 #WALL_DIR=/home/roe/pix/walls
 WALL_DIR=/home/roe/pix/walls/alex_steven_martin
 #WALL_DIR=/home/roe/pix/alex_steven_martin
+
 THEMES_DIR=/home/roe/skps/custom_walz
 
 random_flag=0
@@ -58,6 +59,8 @@ else
   echo -e "${RED}newlook: using wal-generated theme${RESET}"
 fi
 
-/home/roe/.config/polybar/bar.sh &
+nohup bash -c "/home/roe/.config/polybar/bar.sh" &
 cp /home/roe/.cache/wal/colors-wal-dmenu.h /home/roe/git/suckless-sara/dmenu
-
+cd /home/roe/git/suckless-sara/dmenu
+make
+make clean
