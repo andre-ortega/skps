@@ -7,9 +7,9 @@ set -eou pipefail
 # SAVE OPTION
 #wall=cyberpunk
 
-WALL_DIR=/home/roe/pix/sara
+#WALL_DIR=/home/roe/pix/sara
 #WALL_DIR=/home/roe/pix/walls
-#WALL_DIR=/home/roe/pix/walls/alex_steven_martin
+WALL_DIR=/home/roe/pix/walls/alex_steven_martin
 #WALL_DIR=/home/roe/pix/alex_steven_martin
 
 THEMES_DIR=/home/roe/skps/custom_walz
