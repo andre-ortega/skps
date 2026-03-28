@@ -4,9 +4,9 @@ set -eou pipefail
 # SAVE OPTION
 #wall=cyberpunk
 
-#WALL_DIR=/home/roe/pix/walls/sara
+WALL_DIR=/home/roe/pix/walls/sara
 #WALL_DIR=/home/roe/pix/walls/walls
-WALL_DIR=/home/roe/pix/walls/alex_steven_martin
+#WALL_DIR=/home/roe/pix/walls/alex_steven_martin
 
 
 RED='\033[0;31m'
